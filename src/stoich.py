@@ -75,6 +75,7 @@ def balance(fuel,equiv):
         Yi['prod'][item] = mol['prod'][item]*masses[item] / M
     
 def printer():
+    """Prints data in a pretty JSON format"""
     print 'Mols for balance:'
     print json.dumps(mol, sort_keys=True, indent=4)
     print '\nMol fractions:'
@@ -83,6 +84,7 @@ def printer():
     print json.dumps(Yi,sort_keys=True,indent=4)
 
 def getTerm(argv):
+    """Sees if we have terminal input and passes data"""
     opts, args = getopt.getopt(argv, "h", ["help", "fuel=", "phi="])
     
     if len(opts) > 0:

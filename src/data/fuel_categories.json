@@ -1,0 +1,45 @@
+{
+    "alkanes": [
+        "ethane", "isobutane", "isohexane", "isooctane", "isopentane",
+        "methane", "n-butane", "n-decane", "n-dodecane",
+        "n-heptane", "n-hexane", "n-pentane", "propane"
+    ],
+    "alkenes": [
+        "1,3-butadiene", "1-butene", "1-hexene", "1-heptene",
+        "1-octene", "1-pentene", "2-butene", "2-pentene",
+        "cis-2-butene", "ethene", "propene", "trans-2-butene"
+    ],
+    "alkynes": [
+        "acetylene", "propyne"
+    ],
+    "aromatics": [
+        "benzene", "ethylbenzene", "naphthalene", "styrene",
+        "toluene", "xylene"
+    ],
+    "alcohols": [
+        "1-butanol", "1-propanol", "ethanol", "methanol",
+        "2-butanol", "2-propanol", "tert-butanol"
+    ],
+    "ethers": [
+        "MTBE", "diethyl ether", "dimethyl ether"
+    ],
+    "carbonyls": [
+        "acetaldehyde", "acetone", "butanone", "formaldehyde",
+        "propionaldehyde"
+    ],
+    "acids": [
+        "acetic acid", "formic acid", "propanoic acid"
+    ],
+    "polyols": [
+        "ethylene glycol", "glycerol"
+    ],
+    "heterocycles": [
+        "furfural", "levulinic acid"
+    ],
+    "cycloalkanes": [
+        "ethylcyclohexane", "methylcyclohexane"
+    ],
+    "elemental": [
+        "hydrogen"
+    ]
+}
